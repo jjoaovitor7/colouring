@@ -62,8 +62,8 @@ int main() {
                     if (i != 1) {
                         attroff(COLOR_PAIR(i));
                     }
-                    attron(COLOR_PAIR(1));
                 }
+                attron(COLOR_PAIR(1));
             break;
 
             case '2':
@@ -71,8 +71,8 @@ int main() {
                     if (i != 2) {
                         attroff(COLOR_PAIR(i));
                     }
-                    attron(COLOR_PAIR(2));
                 }
+                attron(COLOR_PAIR(2));
             break;
 
             case '3':
@@ -80,8 +80,8 @@ int main() {
                     if (i != 3) {
                         attroff(COLOR_PAIR(i));
                     }
-                    attron(COLOR_PAIR(3));
                 }
+                attron(COLOR_PAIR(3));
             break;
 
             case '4':
@@ -89,8 +89,8 @@ int main() {
                     if (i != 4) {
                         attroff(COLOR_PAIR(i));
                     }
-                    attron(COLOR_PAIR(4));
                 }
+                attron(COLOR_PAIR(4));
             break;
         }
 
